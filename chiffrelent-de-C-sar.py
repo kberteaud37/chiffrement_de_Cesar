@@ -1,4 +1,5 @@
 import os
+from enlever_caracteres import lire_liste_mots, enlever_caracteres_speciaux
 def ouverture_fichier(dossier, fichier="message.txt"):
     # teste si le fichier existe
     full_filename = os.path.join(dossier,fichier)
